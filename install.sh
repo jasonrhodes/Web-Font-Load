@@ -22,7 +22,8 @@ rm *.py
 rm AUTHORS
 rm CONTRIBUTORS
 cd ..
-mv fonts/* /Library/Fonts/
+mkdir -p /Library/Fonts/Google
+mv fonts/* /Library/Fonts/Google/
 
 echo "Fonts installed; Cleaning up files..."
 cd ~/Documents/
